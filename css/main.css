@@ -1,2 +1,90 @@
-
 /*  Put your CSS Here */
+
+/* Mobile Styles --------------------------------------- */
+
+/* Base (Styles applied to tag selection ---------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  box-sizing: border-box;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#fbc2eb),
+    to(#a18cd1)
+  );
+  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 30%;
+  height: 50%;
+  object-fit: cover;
+}
+
+form {
+  width: 60%;
+  display: inline-block;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  background: transparent;
+  border-bottom: 1px solid #333;
+  padding: 0.5em;
+}
+
+select {
+  background: transparent;
+  color: rgb(205, 200, 200);
+}
+
+/* Layout Styles */
+
+.form-wrapper {
+  padding: 2px;
+  max-height: 80vh;
+  min-height: 400px;
+  width: 100%;
+  /* Special background */
+}
+
+.form {
+  background-color: black;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Block Styles */
+
+.form-wrapper {
+  display: flex;
+}
+
+form h1 {
+  font-size: 1rem;
+}
+
+/* Desktop Styles (width bigger than 550px) ---------------------------------------- */
+
+@media (min-width: 767px) {
+}
